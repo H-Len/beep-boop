@@ -32,7 +32,6 @@ _For example, 23 would be substituted with "I'm sorry, Dave. I'm afraid I can't 
 
 ##Specs
 
-_
 | Behavior | Input | Output |
 | ------------- |-------------| -----|
 | Takes number user inputs and outputs number | 4 | 4 |
@@ -41,7 +40,6 @@ _
 | Another exception added: Exception to any number containing a 2: the number will have all digits replaced (all digits together) with | 3 | 3, "boop", "beep", 0 |
 | New exception: numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 4 | 4, "I'm sorry, Dave. I'm afraid I can't do that.", "boop", "beep", 0 |
 | The exception for 3 takes priority over 2, and 2 takes priority over 1. | 24 | "boop", "I'm sorry, Dave. I'm afraid I can't do that.", "boop", “boop”, "boop", “beep”, “beep”, “beep”, “beep”, “beep”, “beep”, "I'm sorry, Dave. I'm afraid I can't do that.", "boop”, “beep”, “beep”, 9, 8, 7, 6, 5, 4, "I'm sorry, Dave. I'm afraid I can't do that.", "boop", "beep", 0 |
-_
 
 _Spec: The program returns a range of numbers from 0 to the users inputted number
 Input: "4"
