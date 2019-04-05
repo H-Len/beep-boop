@@ -34,7 +34,7 @@ _For example, 23 would be substituted with "I'm sorry, Dave. I'm afraid I can't 
 
 _
 | Behavior | Input | Output |
-| ------------- |:-------------:| -----:|
+| ------------- |-------------| -----|
 | Takes number user inputs and outputs number | 4 | 4 |
 | Takes number and outputs 0-(inputted number) | 4 | 0, 1, 2, 3, 4 |
 | Exception to any number 1 added to behavior in line two: Numbers that contain a 1 will have all digits replaced (all digits together) with "Beep!" | 3 | 3, 2, "beep", 0 |
