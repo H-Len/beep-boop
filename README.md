@@ -46,7 +46,7 @@ _the output into the console does so in an endless loop_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_contact Hannah Melendy for help or with suggestions_
 
 ## Technologies Used
 
