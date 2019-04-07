@@ -1,21 +1,23 @@
 
 var output = function(userInput) {
-  // var inputNum = parseInt(userInput);
+  var inputNum = parseInt(userInput);
   var rangeLength = (parseInt(inputNum) + 1);
-  var userOutput = "";
+  var userOutput = "inputNum";
 
-  for (i = userInput; 0 <= i <= userInput-1; i--) {
-      if (userInput === 3) {
-        userOutput += "I'm sorry, Dave. I'm afraid I can't do that.";
-      } else if (userInput === 2) {
-        userOutput = "boop";
-      } else if (userInput === 1) {
-        userOutput = "beep";
-      } else {
-        return userOutput = inputNum;
-      };
-    };
+  console.log(userInput);
+  for (i = rangeLength; 0 <= i <= rangeLength; i--) {
+    if (inputNum === 3) {
+      userOutput += "I'm sorry, Dave. I'm afraid I can't do that.";
+    } else if (inputNum === 2) {
+      userOutput = "boop";
+    } else if (inputNum === 1) {
+      userOutput = "beep";
+    } else {
+      return userOutput;
+    }
+    i -= i;
     console.log(userOutput);
+  }
 };
 
 
