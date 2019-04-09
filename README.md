@@ -7,9 +7,9 @@
 ## Description
 
 _takes a number from a user and returns a range of numbers from 0 to the user inputted number._
-* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-* Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
+* _Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
+* _Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"_
+* _Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."_
 _The rules in this list are in reverse order of importance: numbers containing a 3 take priority over those containing a 2, and so on._
 _For example, 23 would be substituted with "I'm sorry, Dave. I'm afraid I can't do that."_
 
