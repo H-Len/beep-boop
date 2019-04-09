@@ -1,23 +1,18 @@
-
-var output = function(userInput) {
-  var inputNum = parseInt(userInput);
-  var rangeLength = (parseInt(inputNum) + 1);
-  var userOutput = inputNum;
-
-  console.log(userInput);
-  for (i = rangeLength; 0 <= i <= rangeLength; i -=i) {
-    if (inputNum === 3) {
-      userOutput += "I'm sorry, Dave. I'm afraid I can't do that.";
-    } else if (inputNum === 2) {
-      userOutput = "boop";
-    } else if (inputNum === 1) {
-      userOutput = "beep";
+function output(userInputString) {
+  var userInputNum = parseInt(userInputString);
+  var numArr = [];
+  for (var i = userInputNum; i >= 0; i--) {
+    if(i.toString().match("3")){
+      numArr.push("I'm sorry, Dave. I'm afraid I can't do that.");
+    } else if (i.toString().match("2")){
+      numArr.push("boop");
+    } else if (i.toString().match("1")){
+      numArr.push("beep");
     } else {
-      return;
+      numArr.push(i);
     }
-    i -= i;
-    console.log(userOutput);
   }
+  return numArr;
 };
 
 
