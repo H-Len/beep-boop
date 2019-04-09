@@ -16,13 +16,12 @@ function output(userInputString) {
 };
 
 
-
 $(document).ready(function(){
   $("form#numRange").submit(function(event){
     event.preventDefault();
     var userInput = parseInt($("input#userInput").val());
     var result = output(userInput);
     $("#inputRange").text(result);
-    console.log(result);
+   $('ul').prepend('<li> ' + result + ' </li>');
   });
 });

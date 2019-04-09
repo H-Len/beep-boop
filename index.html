@@ -14,12 +14,14 @@
     <div class="container">
       <h1>Enter a number and have it returned back with the range from zero to that number.</h1>
       <form id="numRange">
-        <h2>Please enter a number between 0-9</h2>
-        <input type="number" min="0" max="9" class="formControl" id="userInput">
+        <h3>Please enter a number greater than or equal to zero.</h3>
+        <input type="number" min="0" class="formControl" id="userInput">
         <button type="submit" name="button" class="btn">Submit</button>
       </form>
       <div id="answerArea">
-        <p id="inputRange"></p>
+        <p id="numArr">
+          <ul></ul>
+        </p>
       </div>
     </div>
   </div>
