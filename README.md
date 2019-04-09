@@ -6,14 +6,14 @@
 
 ## Description
 
-_takes a number from a user and returns a range of numbers from 0 to the user inputted number.
+_takes a number from a user and returns a range of numbers from 0 to the user inputted number._
 * Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 * Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-* Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."_
+* Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 _The rules in this list are in reverse order of importance: numbers containing a 3 take priority over those containing a 2, and so on._
 _For example, 23 would be substituted with "I'm sorry, Dave. I'm afraid I can't do that."_
 
-##Specs
+## Specs
 
 _Spec: The program returns the string correlated with the inputted number._
 
@@ -28,21 +28,17 @@ _Spec: The program returns the string correlated with the inputted number._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _open browser_
+* _follow link to GitHub repo listed below_
+* _open application_
 
 ## Link to GitHub Pages
 
-_h-len.github.io/beep-boop_
+[link to beep-boop repo on GitHub](h-len.github.io/beep-boop)
 
 ## Known Bugs
 
-_the output into the console does so in an endless loop_
+_no known bugs_
 
 ## Support and contact details
 
