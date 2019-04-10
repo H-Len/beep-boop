@@ -1,4 +1,31 @@
 
+.container {
+  background-color: lightgrey;
+}
+
+h1 {
+  margin: 10px;
+  padding: 15px;
+}
+
 .btn {
   background-color: lightblue;
+}
+
+#numRange {
+  align-items: center;
+}
+
+.countDown {
+  column-width: 60%;
+  align-items: left;
+  color: darkgreen;
+  font-family: 'Play', sans-serif;
+}
+
+img {
+  float: right;
+  width: 20%;
+  height: 20%;
+  padding: 20px;
 }
