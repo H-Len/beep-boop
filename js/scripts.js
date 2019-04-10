@@ -1,3 +1,5 @@
+//business logic
+
 function output(userInputString) {
   var userInputNum = parseInt(userInputString);
   var numArr = [];
@@ -12,9 +14,12 @@ function output(userInputString) {
       numArr.push(i);
     }
   }
-  return numArr;
+  return numArr
 };
 
+
+
+//UI logic
 
 $(document).ready(function(){
   $("form#numRange").submit(function(event){

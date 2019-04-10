@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 
@@ -12,6 +13,7 @@
 <body>
   <div class="jumbotron">
     <div class="container">
+      <img src="img/numbers.jpg" alt="numbers 1 to 9">
       <h1>Enter a number and have it returned back with the range from zero to that number.</h1>
       <form id="numRange">
         <h3>Please enter a number greater than or equal to zero.</h3>
@@ -20,7 +22,9 @@
       </form>
       <div id="answerArea">
         <p id="numArr">
-          <ul class="results"></ul>
+          <div class="row">
+            <ul class="countDown"></ul>
+          </div>
         </p>
       </div>
     </div>
