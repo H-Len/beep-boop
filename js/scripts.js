@@ -27,6 +27,6 @@ $(document).ready(function(){
     var userInput = parseInt($("input#userInput").val());
     var result = output(userInput);
     $("#inputRange").text(result);
-   $('ul').prepend('<li> ' + result + ' </li>');
+   $('ul').text(result);
   });
 });
